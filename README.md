@@ -1,3 +1,11 @@
+Simon Chau
+shchau1 
+1460077
+
+Part I: 
+I removed the existing <style> </style> sections from the gutenberg html files 
+and replaced them with a <link> to my external css file. 
+
 Assignment: CSS Hell
 ====================
 
