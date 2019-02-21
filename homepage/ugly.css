@@ -1,34 +1,61 @@
 #topHeader {
 	color: #d6d6d6;
-	padding: 100px;
-	background-color: blue;
+	padding: 25px;
+	background-image:  linear-gradient(to right, blue , yellow);
+	font-size: xx-large;
+	font-weight: 800;
+	letter-spacing: -3px;
+	line-height: 1;
+	position: relative;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	font-family: 'Lobster', helvetica, arial;
 }
 
 html {
-	border-left: 200px dotted purple;
-	border-right: 200px dotted green;
-	border-bottom: 200px solid black;
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	font-style: italic;
 }
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: orange;
+	position: relative;
+}
+
+li {
+	float: left;
+	border: 1px solid black;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 15px 17px;
+	text-decoration: none;
+}
+
 
 .sectionPicture {
 	height: 200px;
 	width: 200px;
 	border-radius: 5%;
 	padding: 30px;
-	filter: invert(100%);
 }
 
 section {
-	padding-top: 3%;
 	padding-left: 3vw;
 	text-align: left;
 	width: 50vw;
+	background-color: pink;
+	border-radius: 20%;
+	padding: 50px;
 }
 
 h2 {
-	color: pink;
+	font-style: bold;
 }
 
 article {
@@ -36,14 +63,13 @@ article {
 	color: #000080;
 	width: 10vw;
 	height: 75%;
-	background-color: yellow;
+	background-color: #ffcc00;
 	margin-right: 20%;
-	bottom: 15%;
-	left: 75%;
 	padding-left: 10px;
 	padding-right: 10px;
 	position: absolute;
-	font-size: xx-large;
+	left: 75vw;
+	bottom: -28vh;
 }
 
 aside p {
