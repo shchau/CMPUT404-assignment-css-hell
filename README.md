@@ -6,6 +6,11 @@ Part I:
 I removed the existing style sections from the gutenberg html files 
 and replaced them with a link tag that referenced my external css file. 
 
+
+Part II:
+Creative Commons license added to bottom of my HTML files. 
+
+
 Assignment: CSS Hell
 ====================
 
